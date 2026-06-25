@@ -1,0 +1,16 @@
+{
+  "id": "trending",
+  "name": "Trending Bull Market",
+  "description": "A sustained uptrend with periodic pullbacks. Tests trend-following ability and profit capture.",
+  "regime": "trending",
+  "symbol": "BTC/USDT",
+  "interval": "1d",
+  "initial_capital": 10000.0,
+  "scoring_weights": {
+    "total_return": 0.25,
+    "sharpe_ratio": 0.20,
+    "max_drawdown": 0.15,
+    "win_rate": 0.15,
+    "profit_factor": 0.25
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "volatile",
+  "name": "High Volatility Crash/Recovery",
+  "description": "Sharp sell-off followed by a choppy recovery. Tests risk management, stop-loss discipline, and emotional resilience.",
+  "regime": "volatile",
+  "symbol": "BTC/USDT",
+  "interval": "4h",
+  "initial_capital": 10000.0,
+  "scoring_weights": {
+    "total_return": 0.15,
+    "sharpe_ratio": 0.20,
+    "max_drawdown": 0.30,
+    "win_rate": 0.10,
+    "profit_factor": 0.25
+  }
+}

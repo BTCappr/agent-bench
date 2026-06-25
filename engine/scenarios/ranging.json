@@ -1,0 +1,16 @@
+{
+  "id": "ranging",
+  "name": "Sideways Consolidation",
+  "description": "Tight price range with mean-reverting behavior. Tests patience, entry timing, and false breakout avoidance.",
+  "regime": "ranging",
+  "symbol": "ETH/USDT",
+  "interval": "1h",
+  "initial_capital": 10000.0,
+  "scoring_weights": {
+    "total_return": 0.15,
+    "sharpe_ratio": 0.20,
+    "max_drawdown": 0.25,
+    "win_rate": 0.20,
+    "profit_factor": 0.20
+  }
+}
